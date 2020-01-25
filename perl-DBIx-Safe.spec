@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	DBIx
 %define	pnam	Safe
 Summary:	DBIx::Safe - Safer access to your database through a DBI database handle
